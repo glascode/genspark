@@ -23,7 +23,7 @@ public class Main {
         String userName;
             System.out.println("Hello, what is your name");
             userName=scanner.nextLine();
-            System.out.println("Well, " + userName + " i am thinking of " + randNumber);
+            System.out.println("Well, " + userName + " i am thinking of a number between 1 and 20");
             System.out.println("Take a guess.(you have 6 tries)");
 
             int userInput = Integer.parseInt(scanner.nextLine());
@@ -59,8 +59,11 @@ public class Main {
                     userInput = Integer.parseInt(scanner.nextLine());
                     guess++;
                 } else if (userInput > randNumber) {
-                    guess++;
                     System.out.println("Your guess is too high, you have " + maxTries + " tries remaining");
+                    System.out.println("Take a guess");
+                    userInput = Integer.parseInt(scanner.nextLine());
+
+                    guess++;
                 }
             }
 
