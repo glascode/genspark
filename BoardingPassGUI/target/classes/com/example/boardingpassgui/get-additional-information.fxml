@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.boardingpassgui.GetAdditionalInformation">
+   <children>
+      <Label layoutX="214.0" layoutY="68.0" text="Please enter your E-mail address" />
+      <Label layoutX="213.0" layoutY="131.0" text="Please enter your phone number" />
+      <Label layoutX="234.0" layoutY="200.0" text="Please enter your gender" />
+      <TextField layoutX="226.0" layoutY="97.0" promptText="gm@genspark.net" />
+      <TextField layoutX="226.0" layoutY="163.0" promptText="xxx-xxx-xxxx" />
+      <TextField layoutX="226.0" layoutY="239.0" promptText="M/F" />
+      <Button layoutX="229.0" layoutY="303.0" mnemonicParsing="false" text="Generate boarding pass" />
+   </children>
+</AnchorPane>
