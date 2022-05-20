@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="667.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.boardingpassgui.Controllers.GUIController">
+   <children>
+      <Label layoutX="162.0" layoutY="41.0" prefHeight="77.0" prefWidth="344.0" text="Boarding Pass Generator ">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField layoutX="212.0" layoutY="169.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label layoutX="229.0" layoutY="128.0" prefHeight="41.0" prefWidth="165.0" text="Please enter your full name">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="256.0" layoutY="228.0" text="Please enter your age">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="219.0" layoutY="316.0" text="Please enter your city of departure">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField layoutX="219.0" layoutY="259.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="219.0" layoutY="358.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Button layoutX="285.0" layoutY="410.0" mnemonicParsing="false" text="Submit" />
+   </children>
+</AnchorPane>

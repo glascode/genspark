@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.boardingpassgui.DisplayFlightsAccepted">
+   <children>
+      <TableView layoutX="1.0" layoutY="100.0" prefHeight="200.0" prefWidth="593.0">
+        <columns>
+          <TableColumn prefWidth="592.0" text="C1" />
+        </columns>
+      </TableView>
+      <Label layoutX="212.0" layoutY="58.0" text="Please select the flight you desire">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField layoutX="223.0" layoutY="322.0" promptText="1 for 1, 2 for 2..." />
+   </children>
+</AnchorPane>
