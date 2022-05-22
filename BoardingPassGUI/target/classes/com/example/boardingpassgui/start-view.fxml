@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -22,25 +23,6 @@
             <Font size="13.0" />
          </font>
       </Label>
-      <Label layoutX="256.0" layoutY="228.0" text="Please enter your age">
-         <font>
-            <Font size="13.0" />
-         </font>
-      </Label>
-      <Label layoutX="219.0" layoutY="316.0" text="Please enter your city of departure">
-         <font>
-            <Font size="13.0" />
-         </font>
-      </Label>
-      <TextField layoutX="219.0" layoutY="259.0">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </TextField>
-      <TextField layoutX="219.0" layoutY="358.0">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </TextField>
+      <Button fx:id="button" layoutX="285.0" layoutY="238.0" mnemonicParsing="false" onMouseClicked="#goNext" text="Submit" />
    </children>
 </AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.boardingpassgui.DisplayArrivingAirportsAccepted">
+   <children>
+      <TableView layoutX="3.0" layoutY="100.0" prefHeight="200.0" prefWidth="593.0">
+        <columns>
+          <TableColumn prefWidth="592.0" text="Airports in your destination " />
+        </columns>
+      </TableView>
+      <Label layoutX="186.0" layoutY="50.0" text="Here is a list of airports at your destination." />
+      <Label layoutX="201.0" layoutY="312.0" text="Please enter the number of the airport you desire" />
+      <TextField layoutX="226.0" layoutY="338.0" promptText="1 for 1, 2 for 2..." />
+      <Button fx:id="button" layoutX="264.0" layoutY="363.0" mnemonicParsing="false" onMouseClicked="#goNext" text="Submit" />
+   </children>
+</AnchorPane>
