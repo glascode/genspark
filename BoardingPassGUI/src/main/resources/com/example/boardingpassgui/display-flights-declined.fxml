@@ -16,6 +16,6 @@
       <Label layoutX="194.0" layoutY="111.0" text="Would you like to pick a different date? " />
       <TextField layoutX="226.0" layoutY="158.0" promptText="Y/N" />
       <Label layoutX="259.0" layoutY="128.0" text="N exists the program" />
-      <Button layoutX="274.0" layoutY="200.0" mnemonicParsing="false" text="Submit" />
+      <Button fx:id="button" layoutX="273.0" layoutY="200.0" mnemonicParsing="false" onMouseClicked="#goNext" text="Submit" />
    </children>
 </AnchorPane>

@@ -10,6 +10,6 @@
       <Label layoutX="100.0" layoutY="75.0" text="We appologize you couldn't find an airport, would you like to search again?" />
       <TextField layoutX="226.0" layoutY="175.0" promptText="Y/N" />
       <Label layoutX="178.0" layoutY="108.0" text="Y asks you for a new city, N exits the program" />
-      <Button layoutX="273.0" layoutY="228.0" mnemonicParsing="false" text="Submit" />
+      <Button fx:id="button" layoutX="273.0" layoutY="228.0" mnemonicParsing="false" onMouseClicked="#goNext" text="Submit" />
    </children>
 </AnchorPane>
