@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation and transfer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <form id="create-account-form" action="result.html" method="GET">
+      <div class="title">
+        <h2>Create Account</h2>
+      </div>
+
+      <!-- USERNAME -->
+      <div class="input-group">
+        <label for="username">Name</label>
+        <input type="text" id="username" placeholder="Name" name="username" />
+
+        <i class="fa-solid fa-circle-check"></i>
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <p>Error Message</p>
+      </div>
+      <!-- EMAIL -->
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Email" name="email" />
+
+        <i class="fa-solid fa-circle-check"></i>
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <p>Error Message</p>
+      </div>
+      <!-- PASSWORD -->
+      <div class="input-group">
+        <label for="password">password</label>
+        <input
+          type="text"
+          id="password"
+          placeholder="password"
+          name="password"
+        />
+
+        <i class="fa-solid fa-circle-check"></i>
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <p>Error Message</p>
+      </div>
+      <!-- CONFIRM PASSWORD  -->
+      <div class="input-group">
+        <label for="confirm-password">confirm password</label>
+        <input
+          type="text"
+          id="confirm-password"
+          placeholder="confirm password"
+          name="confirm-password"
+        />
+
+        <i class="fa-solid fa-circle-check"></i>
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <p>Error Message</p>
+      </div>
+
+      <button type="submit" class="btn">Submit</button>
+    </form>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+
+<!-- 
+    <i class="fa-solid fa-circle-check"></i>
+
+    <i class="fa-solid fa-circle-exclamation"></i>
+
+
+
+-->
